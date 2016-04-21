@@ -8,6 +8,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: $sans-serif;
 }
 
 img {
@@ -15,30 +16,41 @@ img {
 }
 
 .page-nav {
-    background-color: #4e0082;
-    padding: 2em 0;
+    background-color: white;
+    padding: 2em 1em;
+    border-bottom: 1px solid $purple;
+    width: 100%;
     .page-logo-container {
         position: relative;
     }
     .page-logo {
+        display: inline-block;
         width: 260px;
         height: auto;
-        margin: 0 auto;
     }
     ul {
-        padding: 1em 0 0 0;
+        display: inline-block;
+        padding: 0;
         margin: 0;
+        float: right;
         li {
+            display: inline-block;
             list-style: none;
             text-align: center;
-            padding: .5em 0;
+            padding: 1.5em 0 0px;
+            margin-left: 2em;
         }
     }
     a {
-        color: white;
+        color: $purple;
         text-decoration: none;
         &:hover {
-            text-decoration: underline;
+            color: lighten($purple, 20%);
+        }
+    }
+    @media (max-width: 39.9em) {
+        .page-logo {
+            width: 80px;
         }
     }
     @media (min-width: 63.9376em) {
@@ -58,6 +70,25 @@ img {
 }
 
 #homepage--body {
+    .callout {
+        color: $purple;
+        margin: 2em 0 1em;
+        line-height: 1.5;
+        a {
+            color: $purple;
+            text-decoration: underline;
+            &:hover {
+                color: darken($purple, 20%);
+            }
+        }
+    }
+    .set-preview {
+        width: 75%;
+        padding: 1em 0;
+        @media (max-width: 40em) {
+            width: 100%;
+        }
+    }
     ul {
         padding: 0;
         margin: 0;
@@ -65,17 +96,38 @@ img {
             list-style: none;
         }
     }
+    .set-project {
+        padding: 1.5em 1em 2em;
+        border-bottom: 1px solid lighten($purple, 35%);
+    }
+    .set-title {
+        font: {
+            weight: 500;
+            size: 24px;
+        };
+        letter-spacing: 5px;
+        color: $purple;
+    }
     .download-button {
         transition: all 250ms ease;
         display: inline-block;
-        background-color: #4e0082;
+        background-color: transparent;
+        border: 1px solid $purple;
+        font-size: 14px;
         padding: 0em 2em;
         text-decoration: none;
-        color: white;
-        padding: 1em 2em;
+        color: $purple;
+        padding: .75em 1.5em;
         margin-top: 2em;
+        letter-spacing: 3px;
         &:hover {
-            background-color: lighten(#4e0082, 10%);
+            color: white;
+            background-color: $purple;
         }
     }
+}
+
+#footer {
+    font-size: 14px;
+    color: $purple;
 }

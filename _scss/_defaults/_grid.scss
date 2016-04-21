@@ -16,6 +16,21 @@
     padding-right: 1rem;
 }
 
+.hide-for-small {
+    @media (max-width: 40.0em) {
+        display: none;
+    }
+}
+
+.show-for-small {
+    @media (max-width: 40em) {
+        display: block;
+    }
+    @media (min-width: 40em) {
+        display: none;
+    }
+}
+
 @media (max-width: 39.9em) {
     .small-full {
         width: 100%;
