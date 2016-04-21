@@ -8,16 +8,16 @@ layout: default
 		</div>
 	</div>
 	<div class="row clearfix">
-		{% for post in site.categories['label-set'] %}
+		{% for label in site.data.labels reversed %}
 		<div class="full column set-project">
-			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{post.title}}<!-- </a> --></h2>
+			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{label.title}}<!-- </a> --></h2>
 			<div class="row clearfix">
 				<div class="full">
-					<img class="set-preview" src="{{ post.img1 }}" alt="">
+					<img class="set-preview" src="{{ label.img1 }}" alt="">
 				</div>
 			</div>
 			<div>
-				<a href="{{post.download}}"><p class="download-button">DOWNLOAD</p></a>
+				<a href="{{label.download}}"><p class="download-button">DOWNLOAD</p></a>
 			</div>
 		</div>
 		{% endfor %}
