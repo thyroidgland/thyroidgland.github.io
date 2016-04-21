@@ -1,0 +1,17 @@
+# Site settings
+title: Thyroidgland
+tagline: ""
+url: "http://antnguyen.com"
+timezone: America/New_York
+
+# Social
+socialimg: /img/social.jpg
+
+# Use this for production
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+excerpt_separator: ""
+
+exclude: [README.md, node_modules, gruntfile.js, package.json]

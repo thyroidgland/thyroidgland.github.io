@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div id="homepage--body">
+	<div class="row clearfix">
+		<div class="full column">
+			<ul>
+				{% for post in site.categories['label-set'] %}
+				<li><h2><!-- <a href="{{post.url}}"> -->{{post.title}}<!-- </a> --></h2></li>
+				<div class="row clearfix">
+					<div class="full">
+						<img src="{{ post.img1 }}" alt="">
+					</div>
+				</div>
+				<div>
+					<a href="{{post.download}}"><p class="download-button">Download Set</p></a>
+				</div>
+				<hr>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

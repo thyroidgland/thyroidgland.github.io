@@ -1,0 +1,81 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.page-nav {
+    background-color: #4e0082;
+    padding: 2em 0;
+    .page-logo-container {
+        position: relative;
+    }
+    .page-logo {
+        width: 260px;
+        height: auto;
+        margin: 0 auto;
+    }
+    ul {
+        padding: 1em 0 0 0;
+        margin: 0;
+        li {
+            list-style: none;
+            text-align: center;
+            padding: .5em 0;
+        }
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    @media (min-width: 63.9376em) {
+        .page-logo {
+            float: left;
+            margin: 0;
+        }
+        ul {
+            float: right;
+            li {
+                display: inline-block;
+                margin-left: 2em;
+                padding: 0;
+            }
+        }
+    }
+}
+
+#homepage--body {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            list-style: none;
+        }
+    }
+    .download-button {
+        transition: all 250ms ease;
+        display: inline-block;
+        background-color: #4e0082;
+        padding: 0em 2em;
+        text-decoration: none;
+        color: white;
+        padding: 1em 2em;
+        margin-top: 2em;
+        &:hover {
+            background-color: lighten(#4e0082, 10%);
+        }
+    }
+}
