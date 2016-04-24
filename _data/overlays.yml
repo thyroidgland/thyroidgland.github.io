@@ -1,3 +1,11 @@
+- title: Heroes of the Storm
+  img1: /files/overlays/hots/overlay.jpg
+  download: /files/overlays/hots/hots.zip
+
+- title: League of Legends
+  img1: /files/overlays/league/overlay.jpg
+  download: /files/overlays/league/league.zip
+
 - title: Enter The Gungeon
   img1: /files/overlays/gungeon/overlay.jpg
   download: /files/overlays/gungeon/gungeon.zip
