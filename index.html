@@ -11,7 +11,7 @@ layout: default
 		{% for overlay in site.data.overlays reversed limit:1 %}
 		<div class="full column set-project">
 			<h2 class="section-title">Latest Game Overlay</h2>
-			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{overlay.title}}<!-- </a> --></h2>
+			<h2 class="set-title">{{overlay.title}}</h2>
 			<div class="row clearfix">
 				<div class="full">
 					<img class="set-preview" src="{{ overlay.img1 }}" alt="">
@@ -32,7 +32,7 @@ layout: default
 		{% for label in site.data.labels reversed limit:1 %}
 		<div class="full column set-project">
 			<h2 class="section-title">Latest Twitch Panel</h2>
-			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{label.title}}<!-- </a> --></h2>
+			<h2 class="set-title">{{label.title}}</h2>
 			<div class="row clearfix">
 				<div class="full">
 					<img class="set-preview" src="{{ label.img1 }}" alt="">
