@@ -49,8 +49,16 @@ img {
         }
     }
     @media (max-width: 39.9em) {
+        padding: 2em 16px;
         .page-logo {
             width: 80px;
+        }
+        ul {
+            float: left;
+            li {
+                margin-left: 0;
+                margin-right: 1.5em;
+            }
         }
     }
     @media (min-width: 63.9376em) {
@@ -63,7 +71,7 @@ img {
             li {
                 display: inline-block;
                 margin-left: 2em;
-                padding: 0;
+                padding: 1.5em 0 0;
             }
         }
     }
@@ -80,6 +88,11 @@ img {
             &:hover {
                 color: darken($purple, 20%);
             }
+        }
+    }
+    @media (max-width: 39.9em) {
+        .callout {
+            margin: 2em 0 0;
         }
     }
     .set-preview {
@@ -105,6 +118,18 @@ img {
         letter-spacing: 5px;
         color: $purple;
     }
+    .section-title {
+        display: inline-block;
+        font: {
+            weight: 700;
+            size: 16px;
+        };
+        padding: .25em .5em;
+        background-color: $purple;
+        letter-spacing: 5px;
+        color: white;
+        text-transform: uppercase;
+    }
     .download-button {
         transition: all 250ms ease;
         display: inline-block;
@@ -121,6 +146,9 @@ img {
             color: white;
             background-color: $purple;
         }
+    }
+    .see-more-links {
+        float: right;
     }
 }
 

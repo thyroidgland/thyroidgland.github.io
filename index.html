@@ -8,8 +8,30 @@ layout: default
 		</div>
 	</div>
 	<div class="row clearfix">
-		{% for label in site.data.labels reversed %}
+		{% for overlay in site.data.overlays reversed limit:1 %}
 		<div class="full column set-project">
+			<h2 class="section-title">Latest Game Overlay</h2>
+			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{overlay.title}}<!-- </a> --></h2>
+			<div class="row clearfix">
+				<div class="full">
+					<img class="set-preview" src="{{ overlay.img1 }}" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="{{overlay.download}}"><p class="download-button">DOWNLOAD</p></a>
+			</div>
+			<div class="see-more-links">
+				<a href="/overlays">
+					<p>See all overlays »</p>
+				</a>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="row clearfix">
+		{% for label in site.data.labels reversed limit:1 %}
+		<div class="full column set-project">
+			<h2 class="section-title">Latest Twitch Panel</h2>
 			<h2 class="set-title"><!-- <a href="{{post.url}}"> -->{{label.title}}<!-- </a> --></h2>
 			<div class="row clearfix">
 				<div class="full">
@@ -18,6 +40,11 @@ layout: default
 			</div>
 			<div>
 				<a href="{{label.download}}"><p class="download-button">DOWNLOAD</p></a>
+			</div>
+			<div class="see-more-links">
+				<a href="/labels">
+					<p>See all labels »</p>
+				</a>
 			</div>
 		</div>
 		{% endfor %}

@@ -1,63 +1,63 @@
-- title: SET 01
-  img1: /files/label-01/label.jpg
-  download: /files/label-01/label-01.zip
-
-- title: SET 02
-  img1: /files/label-02/label.jpg
-  download: /files/label-02/label-02.zip
-
-- title: SET 03
-  img1: /files/label-03/label.jpg
-  download: /files/label-03/label-03.zip
-
-- title: SET 04
-  img1: /files/label-04/label.jpg
-  download: /files/label-04/label-04.zip
-
-- title: SET 05
-  img1: /files/label-05/label.jpg
-  download: /files/label-05/label-05.zip
-
-- title: SET 06
-  img1: /files/label-06/label.jpg
-  download: /files/label-06/label-06.zip
-
-- title: SET 07
-  img1: /files/label-07/label.jpg
-  download: /files/label-07/label-07.zip
-
-- title: SET 08
-  img1: /files/label-08/label.jpg
-  download: /files/label-08/label-08.zip
-
-- title: SET 09
-  img1: /files/label-09/label.jpg
-  download: /files/label-09/label-09.zip
-
-- title: SET 10
-  img1: /files/label-10/label.jpg
-  download: /files/label-10/label-10.zip
-
-- title: SET 11
-  img1: /files/label-11/label.jpg
-  download: /files/label-11/label-11.zip
-
-- title: SET 12
-  img1: /files/label-12/label.jpg
-  download: /files/label-12/label-12.zip
-
-- title: SET 13
-  img1: /files/label-13/label.jpg
-  download: /files/label-13/label-13.zip
-
-- title: SET 14
-  img1: /files/label-14/label.jpg
-  download: /files/label-14/label-14.zip
+- title: SET 16
+  img1: /files/labels/label-16/label.jpg
+  download: /files/labels/label-16/label-16.zip
 
 - title: SET 15
-  img1: /files/label-15/label.jpg
-  download: /files/label-15/label-15.zip
+  img1: /files/labels/label-15/label.jpg
+  download: /files/labels/label-15/label-15.zip
 
-- title: SET 16
-  img1: /files/label-16/label.jpg
-  download: /files/label-16/label-16.zip
+- title: SET 14
+  img1: /files/labels/label-14/label.jpg
+  download: /files/labels/label-14/label-14.zip
+
+- title: SET 13
+  img1: /files/labels/label-13/label.jpg
+  download: /files/labels/label-13/label-13.zip
+
+- title: SET 12
+  img1: /files/labels/label-12/label.jpg
+  download: /files/labels/label-12/label-12.zip
+
+- title: SET 11
+  img1: /files/labels/label-11/label.jpg
+  download: /files/labels/label-11/label-11.zip
+
+- title: SET 10
+  img1: /files/labels/label-10/label.jpg
+  download: /files/labels/label-10/label-10.zip
+
+- title: SET 09
+  img1: /files/labels/label-09/label.jpg
+  download: /files/labels/label-09/label-09.zip
+
+- title: SET 08
+  img1: /files/labels/label-08/label.jpg
+  download: /files/labels/label-08/label-08.zip
+
+- title: SET 07
+  img1: /files/labels/label-07/label.jpg
+  download: /files/labels/label-07/label-07.zip
+
+- title: SET 06
+  img1: /files/labels/label-06/label.jpg
+  download: /files/labels/label-06/label-06.zip
+
+- title: SET 05
+  img1: /files/labels/label-05/label.jpg
+  download: /files/labels/label-05/label-05.zip
+
+- title: SET 04
+  img1: /files/labels/label-04/label.jpg
+  download: /files/labels/label-04/label-04.zip
+
+- title: SET 03
+  img1: /files/labels/label-03/label.jpg
+  download: /files/labels/label-03/label-03.zip
+
+- title: SET 02
+  img1: /files/labels/label-02/label.jpg
+  download: /files/labels/label-02/label-02.zip
+
+- title: SET 01
+  img1: /files/labels/label-01/label.jpg
+  download: /files/labels/label-01/label-01.zip
