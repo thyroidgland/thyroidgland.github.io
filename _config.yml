@@ -5,7 +5,7 @@ email: thyroidgland.twitch@gmail.com
 description: Variety streamer. Gamer. Designer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thyroidgland.github.io/" # the base hostname & protocol for your site
-author:
+author: Anthony Nguyen
 street_address:
 city: 
 state: 
@@ -29,6 +29,9 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/thyroidgland_tg
 twitch_url: https://twitch.tv/thyroidgland
+youtube_url: https://www.youtube.com/channel/UCgD-EP1HTUVoNSs3MGUoo7A/
 
 # Build settings
 markdown: kramdown
+sass:
+    sass_dir: _sass
