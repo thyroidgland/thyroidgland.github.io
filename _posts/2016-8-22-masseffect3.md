@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Etiam
-description: Feugiat amet tempus
-image: assets/images/pic06.jpg
+title: Mass Effect 3
+description: Stream overlay kit
+categories: overlays
+tags: overlay, freebies
+image: assets/images/pic04.jpg
+permalink: /:categories/:title
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
