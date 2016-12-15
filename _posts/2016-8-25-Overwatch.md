@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Tempus
-description: Feugiat amet tempus
-image: assets/images/pic02.jpg
+title: Overwatch
+description: Stream overlay kit
+categories: overlays
+tags: overlay, freebies
+image: assets/images/pic01.jpg
+permalink: /:categories/:title
 ---
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
