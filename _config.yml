@@ -1,6 +1,6 @@
 # Site settings
 title: Thyroidgland
-subtitle: Streamer
+subtitle:
 email: thyroidgland.twitch@gmail.com
 description: Variety streamer. Gamer. Designer.
 baseurl: "" # the subpath of your site, e.g. /blog
