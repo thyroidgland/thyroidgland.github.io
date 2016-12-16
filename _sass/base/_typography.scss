@@ -38,7 +38,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: #6cbe45 !important;
+			color: _palette(highlight) !important;
 		}
 
 		&:active {
